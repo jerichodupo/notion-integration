@@ -40,6 +40,9 @@ jobs:
                 },
                 "Repo": {
                   "rich_text": [{ "text": { "content": "'"${{ github.repository }}"'" } }]
+                },
+                "Project": {
+                  "rich_text": [{ "text": { "content": "Notion Integration" } }]
                 }
               }
             }'
