@@ -38,7 +38,7 @@ jobs:
                 "Date": {
                   "date": { "start": "'"$(git log -1 --pretty=%aI)"'" }
                 },
-                "Repo": {
+                "Repository": {
                   "rich_text": [{ "text": { "content": "'"${{ github.repository }}"'" } }]
                 }
               }
